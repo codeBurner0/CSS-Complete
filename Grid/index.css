@@ -16,6 +16,8 @@
     /* variable column */
     grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
     /* take min width 100px and otherwise remaining space and divide equaly */
+
+    /* grid-auto-flow: dense; --> auto add the items up and down to remove extra space */
 }
 
 .tem {
@@ -23,9 +25,10 @@
 }
 .item1{
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: -1;
     /* grid-column: 1/3; ->shorthand of the above line */
     /* grid-column: 1/span 2; ->shorthand of the above line */
     grid-row-start: 1;
     grid-row-end: 3;
+    /* grid-row:span 2 */
 }
