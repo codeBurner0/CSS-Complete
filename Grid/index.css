@@ -18,6 +18,11 @@
     /* take min width 100px and otherwise remaining space and divide equaly */
 
     /* grid-auto-flow: dense; --> auto add the items up and down to remove extra space */
+
+    /* justify-items: center; ->x-axis
+    align-items: center;  ->y-axis*/
+    /* justify-content: center; 
+    align-content:center;*/
 }
 
 .tem {
