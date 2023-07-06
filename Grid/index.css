@@ -1,0 +1,22 @@
+.container {
+    background-color: aqua;
+    margin: 10%;
+    display: grid;
+    /* grid-template-columns: 100px 200px 300px; -> divide item in three 
+    columns but space is remaining when to give them in pixel
+    So use 1fr(fractional value)*/
+    /* grid-template-columns: 1fr 1fr 1fr; -> divide the items in equal three column acc to space avaible */
+    grid-template-columns: repeat(3,1fr);
+    /* gap in rows and columns */
+    /* row-gap: 30px; -> create gap between rows*/
+    /* column-gap: 30px; -<create gap between columns */
+    gap: 30px 30px; /* create gap between both rows and columns */
+    grid-auto-rows: 100px; /* make every row height 100px */
+    /* variable  */
+
+
+}
+
+.tem {
+    background-color: blueviolet;
+}

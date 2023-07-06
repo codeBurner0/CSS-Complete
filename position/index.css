@@ -1,3 +1,4 @@
+
 .item{
     width: 100px;
     height: 100px;
@@ -6,39 +7,30 @@
 }
 .item1{
     background-color: aqua;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 30%;
 }
 .item2{
     background-color: rgb(26, 255, 0);
-    position: absolute;
-    left: 0;
 }
 .item3{
     background-color: rgb(255, 157, 0);
 }
 .item4{
     background-color: rgb(191, 0, 255);
-    position: fixed;
-    bottom: 0;
-    right: 0;
 }
 .item5{
     background-color: rgb(255, 0, 149);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: 2;
 }
 .container{
     background-color: brown;
     width: 50%;
-    margin: 0 auto;
+    margin: 20% auto;
     height: 100vh;
+    position: relative;
 }
 .para{
-    position: relative;
-    z-index: 4;
 }
+
+/* position take the top left bottom right properties from its parents */
+/* absolute take the top left bottom right properties from root element bydefault otherwise check position relative to their parents */
