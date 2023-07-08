@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Document</title>
 </head>
 
@@ -11,6 +12,7 @@
     <div class="container">
         <div class="logo">
             <a href="#">Logo</a>
+            <img class="img" src="../../images/th (10).jpeg" alt="">
         </div>
         <div class="links">
             <a href="" class="item">Home</a>
@@ -20,5 +22,10 @@
             <a href="" class="item">Phone</a>
         </div>
     </div>
+    <script>
+        document.getElementsByClassName("img")[0].addEventListener("click",function(){
+            document.getElementsByClassName("links")[0].classList.toggle("show")
+        })
+    </script>
 </body>
 </html>
