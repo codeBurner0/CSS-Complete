@@ -12,7 +12,6 @@
     /* column-gap: 30px; -<create gap between columns */
     gap: 30px 30px; /* create gap between both rows and columns */
     grid-auto-rows: 100px; /* make every row height 100px */
-
     /* variable column */
     grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
     /* take min width 100px and otherwise remaining space and divide equaly */

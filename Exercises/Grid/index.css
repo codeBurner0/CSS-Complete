@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.container{
+    background-color: aqua;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 10%;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+}
+.links{
+    text-align: end;
+    margin-right: 5%;
+    height: 10%;
+}
+.item{
+    padding: 0 20px;
+    font-size: 20px;
+    display: inline-block;
+    padding-top: 5px;
+}
+@media screen and (max-width:800px){
+    a{
+        font-size: 20px;
+    }
+    .item{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+}
