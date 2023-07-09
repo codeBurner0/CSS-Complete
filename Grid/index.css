@@ -2,6 +2,7 @@
     background-color: aqua;
     margin: 10%;
     display: grid;
+
     /* grid-template-columns: 100px 200px 300px; -> divide item in three 
     columns but space is remaining when to give them in pixel
     So use 1fr(fractional value)*/
@@ -18,10 +19,10 @@
 
     /* grid-auto-flow: dense; --> auto add the items up and down to remove extra space */
 
-    /* justify-items: center; ->x-axis
-    align-items: center;  ->y-axis*/
-    /* justify-content: center; 
-    align-content:center;*/
+    justify-items: center;
+    align-items: center;  
+     /* justify-content: center;  */
+    /* align-content:center; */
 }
 .tem {
     background-color: blueviolet;
